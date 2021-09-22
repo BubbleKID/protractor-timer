@@ -1,0 +1,33 @@
+{
+  "name": "protractor-timer-plugin",
+  "version": "0.1.0",
+  "description": "Show time usage for each testing case.",
+  "main": "index.js",
+  "scripts": {
+    "start": "httpster -d testapp/ -p `node -p 'process.env.HTTP_PORT || require(\"./spec/environment\").webServerDefaultPort'`",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BubbleKID/protractor-timer-plugin"
+  },
+  "keywords": [
+    "angular",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium",
+    "protractor",
+    "protractor-plugin"
+  ],
+  "author": "Mark Chen <fqchenxin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/protractor-timeline-plugin/issues"
+  },
+  "homepage": "https://github.com/BubbleKID/protractor-timer-plugin",
+  "devDependencies": {
+    "protractor": "^4.0.10"
+  }
+}
