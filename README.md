@@ -1,1 +1,1 @@
-# protractor-timer
+# protractor-timer-plugin
