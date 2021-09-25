@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/BubbleKID/protractor-timer-plugin",
   "devDependencies": {
+    "eslint": "^7.32.0",
     "protractor": "^4.0.10"
   }
 }
